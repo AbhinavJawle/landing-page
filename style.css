@@ -6,16 +6,17 @@ body{
 
 button {
     font-size: 22px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 160px;
     height: 80px;
     border-radius: 20px;
+    background-color: blueviolet;
 }
 
 .header {
     display: flex;
     align-items: center;
-    background-color: rgb(83, 0, 63);
+    background-color: rgb(53, 0, 0);
     justify-content: space-between;
     padding-right: 100px;
 }
@@ -50,7 +51,7 @@ ul {
     display: flex;
     gap: 40px;
     padding: 50px 100px 100px 100px;
-    background-color: beige;
+    background-color: rgb(222, 208, 255);
 }
 
 .content {
@@ -70,7 +71,8 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(255, 213, 206);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 .feature {
@@ -89,16 +91,17 @@ ul {
 }
 
 .quote {
-    background-color: burlywood;
+    background-color: rgb(53, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 60px;
+    color: white;
 }
 
 .quote .author {
     align-self: flex-end;
-    margin-right: 20px;
+    margin-right: 40px;
     font-weight: lighter;
 }
 
@@ -116,14 +119,14 @@ ul {
 
 .cta {
     padding: 100px 100px 100px 100px;
-    background-color: rgb(105, 233, 31);
+    background-color: rgb(0, 0, 0)
 }
 
 .cta .content {
     display: flex;
     padding: 20px;
     flex-direction: row;
-    background-color: rgb(152, 255, 250);
+    background-color: rgb(222, 208, 255);
     border-radius: 10px;
     align-items: center;
     justify-content: center;
