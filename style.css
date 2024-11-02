@@ -1,0 +1,151 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+button {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    width: 160px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(83, 0, 63);
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.logo{
+    margin-left: 100px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+.hero img {
+    width: auto;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    padding: 50px 100px 100px 100px;
+    background-color: beige;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.information img{
+    width: 120px;
+    height: auto;
+}
+
+.information {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 213, 206);
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image {
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.quote .author {
+    align-self: flex-end;
+    margin-right: 20px;
+    font-weight: lighter;
+}
+
+.right button{
+    font-size: 20px;
+    color: rgb(0, 3, 49);
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgb(0, 3, 49);
+    background-color: rgba(9, 0, 139, 0);
+   
+}
+
+.cta {
+    padding: 100px 100px 100px 100px;
+    background-color: rgb(105, 233, 31);
+}
+
+.cta .content {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    background-color: rgb(152, 255, 250);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content .left h4 {
+    font-weight: lighter;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
